@@ -1,0 +1,61 @@
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject\SkyBridgeProject\bin\Debug\SkyBridgeProject.exe.config
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject\SkyBridgeProject\bin\Debug\SkyBridgeProject.exe
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject\SkyBridgeProject\bin\Debug\SkyBridgeProject.pdb
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject\SkyBridgeProject\bin\Debug\Ionic.Zip.dll
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.csprojResolveAssemblyReference.cache
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.Properties.Resources.resources
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.csproj.GenerateResource.Cache
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.exe
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.pdb
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.Intro.resources
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.Forms.Details.resources
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject\SkyBridgeProject\bin\Debug\Microsoft.SqlServer.Management.IntegrationServices.dll
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject\SkyBridgeProject\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject\SkyBridgeProject\bin\Debug\Microsoft.SqlServer.Smo.dll
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject\SkyBridgeProject\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject\SkyBridgeProject\bin\Debug\Microsoft.SqlServer.Diagnostics.STrace.dll
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject\SkyBridgeProject\bin\Debug\Microsoft.SqlServer.SqlClrProvider.dll
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject\SkyBridgeProject\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject\SkyBridgeProject\bin\Debug\Microsoft.SqlServer.Dmf.Common.dll
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject\SkyBridgeProject\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.csproj.SkyBridgeProject.exe.config
+C:\Users\STATHIS\Desktop\SkyBridgeProject\SkyBridgeProject\bin\Debug\SkyBridgeProject.exe.config
+C:\Users\STATHIS\Desktop\SkyBridgeProject\SkyBridgeProject\bin\Debug\SkyBridgeProject.exe
+C:\Users\STATHIS\Desktop\SkyBridgeProject\SkyBridgeProject\bin\Debug\SkyBridgeProject.pdb
+C:\Users\STATHIS\Desktop\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.csprojResolveAssemblyReference.cache
+C:\Users\STATHIS\Desktop\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.Forms.Details.resources
+C:\Users\STATHIS\Desktop\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.Intro.resources
+C:\Users\STATHIS\Desktop\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.Properties.Resources.resources
+C:\Users\STATHIS\Desktop\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.csproj.GenerateResource.cache
+C:\Users\STATHIS\Desktop\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.csproj.CoreCompileInputs.cache
+C:\Users\STATHIS\Desktop\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.csproj.CopyComplete
+C:\Users\STATHIS\Desktop\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.exe
+C:\Users\STATHIS\Desktop\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.pdb
+C:\Users\STATHIS\Desktop\SkyBridgeProject\SkyBridgeProject\bin\Debug\Microsoft.SqlServer.ManagedDTS.dll
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\bin\Debug\SkyBridgeProject.exe.config
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.exe
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.pdb
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\bin\Debug\SkyBridgeProject.exe
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\bin\Debug\SkyBridgeProject.pdb
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\bin\Debug\Ionic.Zip.dll
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\bin\Debug\Microsoft.SqlServer.ManagedDTS.dll
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\bin\Debug\Microsoft.SqlServer.DTSRuntimeWrap.dll
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\bin\Debug\Microsoft.SqlServer.PipelineHost.dll
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\bin\Debug\Microsoft.SqlServer.DTSPipelineWrap.dll
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.csprojResolveAssemblyReference.cache
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.Forms.Details.resources
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.Intro.resources
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.Properties.Resources.resources
+J:\DevProjects\Visual Studio 2015 Projects\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.csproj.GenerateResource.Cache
+C:\Users\STATHIS\Desktop\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\bin\Debug\SkyBridgeProject.exe.config
+C:\Users\STATHIS\Desktop\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\bin\Debug\SkyBridgeProject.exe
+C:\Users\STATHIS\Desktop\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\bin\Debug\SkyBridgeProject.pdb
+C:\Users\STATHIS\Desktop\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.csprojResolveAssemblyReference.cache
+C:\Users\STATHIS\Desktop\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.Forms.Details.resources
+C:\Users\STATHIS\Desktop\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.Intro.resources
+C:\Users\STATHIS\Desktop\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.Properties.Resources.resources
+C:\Users\STATHIS\Desktop\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.csproj.GenerateResource.cache
+C:\Users\STATHIS\Desktop\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.csproj.CoreCompileInputs.cache
+C:\Users\STATHIS\Desktop\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.csproj.CopyComplete
+C:\Users\STATHIS\Desktop\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.exe
+C:\Users\STATHIS\Desktop\SkyBridgeProject Final Version\SkyBridgeProject\SkyBridgeProject\obj\Debug\SkyBridgeProject.pdb

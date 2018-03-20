@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SkyBridgeSSIS", "SkyBridgeSSIS\SkyBridgeSSIS.dtproj", "{0FF32C65-7D70-4367-84C7-27C4817C17A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FF32C65-7D70-4367-84C7-27C4817C17A8}.Development|Default.ActiveCfg = Development
+		{0FF32C65-7D70-4367-84C7-27C4817C17A8}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7B393EA-71B4-495B-8521-8BBDA43850CC}
+	EndGlobalSection
+EndGlobal

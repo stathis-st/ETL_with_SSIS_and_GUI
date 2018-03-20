@@ -1,0 +1,1754 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="3/18/2018 4:45:45 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-C6R9VNS"
+  DTS:CreatorName="DESKTOP-C6R9VNS\STATHIS"
+  DTS:DTSID="{0FC6C2B8-61CA-4E4B-96D2-41EDA63F56C6}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="14.0.3002.92"
+  DTS:LocaleID="1032"
+  DTS:ObjectName="Cases"
+  DTS:PackageType="5"
+  DTS:VersionBuild="18"
+  DTS:VersionGUID="{F5A3C8B7-B1B6-40E5-A306-682A5404654E}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[FlatFileCases]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{BC6DB763-D6F3-4A92-9FD2-BE76A503741D}"
+      DTS:ObjectName="FlatFileCases">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[$Package::CasesFilePath]</DTS:PropertyExpression>
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1032"
+          DTS:HeaderRowsToSkip="1"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1253"
+          DTS:ConnectionString="C:\Users\STATHIS\source\repos\SkyBridgeSSIS\SkyBridgeSSIS\inputFiles\OUT_FIRSTCALL_CRS_CASES_20101018.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Id"
+              DTS:DTSID="{1694834A-8C56-4FE2-BB28-58589EBEEF89}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CreditCardLoan"
+              DTS:DTSID="{C079753F-FA79-4F78-AA75-552E3A79FE49}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CaseCode"
+              DTS:DTSID="{86323E3C-6437-4AB7-8BCB-FAB24A0D9240}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ServiceAccount"
+              DTS:DTSID="{1D7B4FF9-57A2-45DD-A13D-0761EE9DBE97}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ProductCode"
+              DTS:DTSID="{64223CC3-F5A9-4DC2-8830-40272F6C75A8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="LoanAmountLimit"
+              DTS:DTSID="{3514592A-38C8-49AF-B40B-E4CDB0A2B367}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NonExpCapital"
+              DTS:DTSID="{33C208B5-F4A0-4653-ABFC-77223A3DD319}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="InterestRate"
+              DTS:DTSID="{AC684026-B54A-4B74-A33F-489AB9F87DF7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PosoOfeilis"
+              DTS:DTSID="{9EDB3FE5-0698-403A-B766-900F89AF66C7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="StatementBalance"
+              DTS:DTSID="{9F917B05-8061-4366-9C7C-91D34BD4DC76}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Interests"
+              DTS:DTSID="{09AC4B41-0209-48D8-8A33-EA00FF435DF2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="AssignmentDate"
+              DTS:DTSID="{5D6645EF-F2EB-4E04-8DFE-E5A42DC64BFB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CaseState"
+              DTS:DTSID="{32F4C93F-CD06-455E-BA10-61483A20F8F6}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ExpLoanCardDate"
+              DTS:DTSID="{D4446328-9D06-44EE-9C80-4BAC18EC9DAB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="FacilityCode"
+              DTS:DTSID="{B6059098-607D-4A1A-8637-721C5C763105}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="AssignmentCode"
+              DTS:DTSID="{F40854EF-7F39-42E7-B4D6-3406F157E277}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TotalBalance"
+              DTS:DTSID="{FE2ECCA2-841A-42F2-99BF-17F3CF751A41}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="AssignmentTotalBalance"
+              DTS:DTSID="{4D3E1C3F-D89D-4D7A-B3F9-4961A780A55F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="AssignmentNonExpAmount"
+              DTS:DTSID="{9C45ECF1-32EB-4413-8C52-BBF08C330FA3}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="AssignmentPosoOfeilis"
+              DTS:DTSID="{0E11545D-AE0B-45E0-850D-3339E4E11623}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="AvailableSpendingBalance"
+              DTS:DTSID="{2C01B732-E441-4D0F-8F5D-6E161719B7F6}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="RecallCode"
+              DTS:DTSID="{F1D9CF85-A0EB-4DFB-B78A-32BE2B138EFE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CaseBucket"
+              DTS:DTSID="{142B4FD6-4269-4E86-9AEA-95A8011FA921}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x007C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="DelayDays"
+              DTS:DTSID="{01AAF7D9-FA17-4A0F-933B-9CD7D4476450}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="LoanTarget"
+              DTS:DTSID="{F273F503-01FC-4623-AC30-B7DCF8C0A064}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[SQL_SkyBridgeDev.sa]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{8246D566-F4B3-44BD-ABC9-27E89DA6796D}"
+      DTS:ObjectName="SQL_SkyBridgeDev.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-C6R9VNS\STATHISSQL;User ID=sa;Initial Catalog=SkyBridgeDev;Provider=SQLNCLI11.1;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfpmUpoKQckeHAnJghPphhwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABI7w+4HkEixFNSqUt0WYljN53LoSX+Ig58dXCaXNqpsQAAAAAOgAAAAAIAACAAAAApte6MdEM4Z6Xq6gSJKpXiJAFvVKJ1t4qTDpjac2DKKRAAAACgwuA671lTic+RHfoN2zvMQAAAAGiBpFRpXKpqRP9cBI+iclC44zPMnzui5xU1JnIGu7kQD7Hb0aPL+AYDNHGQhXKT3Y0BFhQya7seEXkrJqpeDXQ</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:PackageParameters>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:DTSID="{D81959D3-54F6-4D0C-98E8-91AECE8CA168}"
+      DTS:ObjectName="CasesFilePath">
+      <DTS:Property
+        DTS:DataType="8"
+        DTS:Name="ParameterValue">C:\Users\STATHIS\source\repos\SkyBridgeSSIS\SkyBridgeSSIS\inputFiles\OUT_FIRSTCALL_CRS_CASES_20101018.txt</DTS:Property>
+    </DTS:PackageParameter>
+  </DTS:PackageParameters>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Cases Data Flow"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{DEDA9EBC-ACE6-4647-9627-24579B73631A}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Cases Data Flow"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Cases Data Flow\Cases Derived Column"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Cases Derived Column"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Cases Data Flow\Cases Derived Column.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases Derived Column.Inputs[Derived Column Input].Columns[AssignmentDate]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="AssignmentDate"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[AssignmentDate]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[SUBSTRING](#{Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[AssignmentDate]},3,2) + "/" + [SUBSTRING](#{Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[AssignmentDate]},1,2) + "/" + [SUBSTRING](#{Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[AssignmentDate]},5,4)</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">SUBSTRING(AssignmentDate,3,2) + "/" + SUBSTRING(AssignmentDate,1,2) + "/" + SUBSTRING(AssignmentDate,5,4)</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases Derived Column.Inputs[Derived Column Input].Columns[ExpLoanCardDate]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ExpLoanCardDate"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[ExpLoanCardDate]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[SUBSTRING](#{Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[ExpLoanCardDate]},3,2) + "/" + [SUBSTRING](#{Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[ExpLoanCardDate]},1,2) + "/" + [SUBSTRING](#{Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[ExpLoanCardDate]},5,4)</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">SUBSTRING(ExpLoanCardDate,3,2) + "/" + SUBSTRING(ExpLoanCardDate,1,2) + "/" + SUBSTRING(ExpLoanCardDate,5,4)</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Cases Data Flow\Cases Derived Column.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Cases Data Flow\Cases Derived Column.Inputs[Derived Column Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Cases Data Flow\Cases Derived Column.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Cases Data Flow\Cases Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Cases Data Flow\Cases Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Cases Data Flow\Cases Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Cases Data Flow\Cases Flat File Source"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="1032"
+              name="Cases Flat File Source"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Cases Data Flow\Cases Flat File Source.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[FlatFileCases]"
+                  connectionManagerRefId="Package.ConnectionManagers[FlatFileCases]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[Id]"
+                      codePage="1253"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Id]"
+                      length="50"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[Id]"
+                      name="Id"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[CreditCardLoan]"
+                      codePage="1253"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[CreditCardLoan]"
+                      length="50"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[CreditCardLoan]"
+                      name="CreditCardLoan"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[CaseCode]"
+                      codePage="1253"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[CaseCode]"
+                      length="50"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[CaseCode]"
+                      name="CaseCode"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[ServiceAccount]"
+                      codePage="1253"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ServiceAccount]"
+                      length="50"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[ServiceAccount]"
+                      name="ServiceAccount"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[ProductCode]"
+                      codePage="1253"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ProductCode]"
+                      length="50"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[ProductCode]"
+                      name="ProductCode"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[LoanAmountLimit]"
+                      codePage="1253"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[LoanAmountLimit]"
+                      length="50"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[LoanAmountLimit]"
+                      name="LoanAmountLimit"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[NonExpCapital]"
+                      codePage="1253"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[NonExpCapital]"
+                      length="50"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[NonExpCapital]"
+                      name="NonExpCapital"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[InterestRate]"
+                      codePage="1253"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[InterestRate]"
+                      length="50"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[InterestRate]"
+                      name="InterestRate"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[PosoOfeilis]"
+                      codePage="1253"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PosoOfeilis]"
+                      length="50"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[PosoOfeilis]"
+                      name="PosoOfeilis"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[StatementBalance]"
+                      codePage="1253"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[StatementBalance]"
+                      length="50"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[StatementBalance]"
+                      name="StatementBalance"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[Interests]"
+                      codePage="1253"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Interests]"
+                      length="50"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[Interests]"
+                      name="Interests"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[AssignmentDate]"
+                      codePage="1253"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[AssignmentDate]"
+                      length="50"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[AssignmentDate]"
+                      name="AssignmentDate"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[CaseState]"
+                      codePage="1253"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[CaseState]"
+                      length="50"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[CaseState]"
+                      name="CaseState"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[ExpLoanCardDate]"
+                      codePage="1253"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ExpLoanCardDate]"
+                      length="50"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[ExpLoanCardDate]"
+                      name="ExpLoanCardDate"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[FacilityCode]"
+                      codePage="1253"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[FacilityCode]"
+                      length="50"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[FacilityCode]"
+                      name="FacilityCode"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[AssignmentCode]"
+                      codePage="1253"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[AssignmentCode]"
+                      length="50"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[AssignmentCode]"
+                      name="AssignmentCode"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[TotalBalance]"
+                      codePage="1253"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[TotalBalance]"
+                      length="50"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[TotalBalance]"
+                      name="TotalBalance"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[AssignmentTotalBalance]"
+                      codePage="1253"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[AssignmentTotalBalance]"
+                      length="50"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[AssignmentTotalBalance]"
+                      name="AssignmentTotalBalance"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[AssignmentNonExpAmount]"
+                      codePage="1253"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[AssignmentNonExpAmount]"
+                      length="50"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[AssignmentNonExpAmount]"
+                      name="AssignmentNonExpAmount"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[AssignmentPosoOfeilis]"
+                      codePage="1253"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[AssignmentPosoOfeilis]"
+                      length="50"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[AssignmentPosoOfeilis]"
+                      name="AssignmentPosoOfeilis"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[AvailableSpendingBalance]"
+                      codePage="1253"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[AvailableSpendingBalance]"
+                      length="50"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[AvailableSpendingBalance]"
+                      name="AvailableSpendingBalance"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[RecallCode]"
+                      codePage="1253"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[RecallCode]"
+                      length="50"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[RecallCode]"
+                      name="RecallCode"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[CaseBucket]"
+                      codePage="1253"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[CaseBucket]"
+                      length="50"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[CaseBucket]"
+                      name="CaseBucket"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[DelayDays]"
+                      codePage="1253"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[DelayDays]"
+                      length="50"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[DelayDays]"
+                      name="DelayDays"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[LoanTarget]"
+                      codePage="1253"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[LoanTarget]"
+                      length="50"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[LoanTarget]"
+                      name="LoanTarget"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Id]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="Id" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[CreditCardLoan]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="CreditCardLoan" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[CaseCode]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="CaseCode" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ServiceAccount]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="ServiceAccount" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ProductCode]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="ProductCode" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[LoanAmountLimit]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="LoanAmountLimit" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[NonExpCapital]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="NonExpCapital" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[InterestRate]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="InterestRate" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[PosoOfeilis]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="PosoOfeilis" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[StatementBalance]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="StatementBalance" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[Interests]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="Interests" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[AssignmentDate]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="AssignmentDate" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[CaseState]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="CaseState" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ExpLoanCardDate]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="ExpLoanCardDate" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[FacilityCode]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="FacilityCode" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[AssignmentCode]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="AssignmentCode" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[TotalBalance]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="TotalBalance" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[AssignmentTotalBalance]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="AssignmentTotalBalance" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[AssignmentNonExpAmount]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="AssignmentNonExpAmount" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[AssignmentPosoOfeilis]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="AssignmentPosoOfeilis" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[AvailableSpendingBalance]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="AvailableSpendingBalance" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[RecallCode]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="RecallCode" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[CaseBucket]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="CaseBucket" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[DelayDays]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="DelayDays" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].ExternalColumns[LoanTarget]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="LoanTarget" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1253"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Cases Data Flow\Cases OLE DB Destination"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="Cases OLE DB Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[Cases]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1253</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Cases Data Flow\Cases OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[SQL_SkyBridgeDev.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[SQL_SkyBridgeDev.sa]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Id]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Id"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Id]"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[Id]" />
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].Columns[CreditCardLoan]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="CreditCardLoan"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CreditCardLoan]"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[CreditCardLoan]" />
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].Columns[CaseCode]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="CaseCode"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CaseCode]"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[CaseCode]" />
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ServiceAccount]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ServiceAccount"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ServiceAccount]"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[ServiceAccount]" />
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ProductCode]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ProductCode"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ProductCode]"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[ProductCode]" />
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].Columns[LoanAmountLimit]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="LoanAmountLimit"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LoanAmountLimit]"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[LoanAmountLimit]" />
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].Columns[NonExpCapital]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="NonExpCapital"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NonExpCapital]"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[NonExpCapital]" />
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].Columns[InterestRate]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="InterestRate"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[InterestRate]"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[InterestRate]" />
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PosoOfeilis]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="PosoOfeilis"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PosoOfeilis]"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[PosoOfeilis]" />
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].Columns[StatementBalance]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="StatementBalance"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[StatementBalance]"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[StatementBalance]" />
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Interests]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Interests"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Interests]"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[Interests]" />
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].Columns[AssignmentDate]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="AssignmentDate"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AssignmentDate]"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[AssignmentDate]" />
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].Columns[CaseState]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="CaseState"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CaseState]"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[CaseState]" />
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ExpLoanCardDate]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ExpLoanCardDate"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ExpLoanCardDate]"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[ExpLoanCardDate]" />
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].Columns[FacilityCode]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="FacilityCode"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[FacilityCode]"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[FacilityCode]" />
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].Columns[AssignmentCode]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="AssignmentCode"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AssignmentCode]"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[AssignmentCode]" />
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].Columns[TotalBalance]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="TotalBalance"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TotalBalance]"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[TotalBalance]" />
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].Columns[AssignmentTotalBalance]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="AssignmentTotalBalance"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AssignmentTotalBalance]"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[AssignmentTotalBalance]" />
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].Columns[AssignmentNonExpAmount]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="AssignmentNonExpAmount"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AssignmentNonExpAmount]"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[AssignmentNonExpAmount]" />
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].Columns[AssignmentPosoOfeilis]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="AssignmentPosoOfeilis"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AssignmentPosoOfeilis]"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[AssignmentPosoOfeilis]" />
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].Columns[AvailableSpendingBalance]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="AvailableSpendingBalance"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AvailableSpendingBalance]"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[AvailableSpendingBalance]" />
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].Columns[RecallCode]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="RecallCode"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[RecallCode]"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[RecallCode]" />
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].Columns[CaseBucket]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="CaseBucket"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CaseBucket]"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[CaseBucket]" />
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].Columns[DelayDays]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="DelayDays"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DelayDays]"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[DelayDays]" />
+                    <inputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].Columns[LoanTarget]"
+                      cachedCodepage="1253"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="LoanTarget"
+                      externalMetadataColumnId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LoanTarget]"
+                      lineageId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output].Columns[LoanTarget]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Id]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="Id" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CreditCardLoan]"
+                      dataType="i4"
+                      name="CreditCardLoan" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CaseCode]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="CaseCode" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ServiceAccount]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="ServiceAccount" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ProductCode]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="ProductCode" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LoanAmountLimit]"
+                      dataType="numeric"
+                      name="LoanAmountLimit"
+                      precision="18"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NonExpCapital]"
+                      dataType="numeric"
+                      name="NonExpCapital"
+                      precision="18"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[InterestRate]"
+                      dataType="numeric"
+                      name="InterestRate"
+                      precision="18"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PosoOfeilis]"
+                      dataType="numeric"
+                      name="PosoOfeilis"
+                      precision="18"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[StatementBalance]"
+                      dataType="numeric"
+                      name="StatementBalance"
+                      precision="18"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Interests]"
+                      dataType="numeric"
+                      name="Interests"
+                      precision="18"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AssignmentDate]"
+                      dataType="dbDate"
+                      name="AssignmentDate" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CaseState]"
+                      codePage="1253"
+                      dataType="str"
+                      length="5"
+                      name="CaseState" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ExpLoanCardDate]"
+                      dataType="dbDate"
+                      name="ExpLoanCardDate" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[FacilityCode]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="FacilityCode" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AssignmentCode]"
+                      dataType="i4"
+                      name="AssignmentCode" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TotalBalance]"
+                      dataType="numeric"
+                      name="TotalBalance"
+                      precision="18"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AssignmentTotalBalance]"
+                      dataType="numeric"
+                      name="AssignmentTotalBalance"
+                      precision="18"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AssignmentNonExpAmount]"
+                      dataType="numeric"
+                      name="AssignmentNonExpAmount"
+                      precision="18"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AssignmentPosoOfeilis]"
+                      dataType="numeric"
+                      name="AssignmentPosoOfeilis"
+                      precision="18"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AvailableSpendingBalance]"
+                      dataType="numeric"
+                      name="AvailableSpendingBalance"
+                      precision="18"
+                      scale="2" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[RecallCode]"
+                      codePage="1253"
+                      dataType="str"
+                      length="50"
+                      name="RecallCode" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CaseBucket]"
+                      dataType="i4"
+                      name="CaseBucket" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DelayDays]"
+                      dataType="i4"
+                      name="DelayDays" />
+                    <externalMetadataColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LoanTarget]"
+                      codePage="1253"
+                      dataType="str"
+                      length="100"
+                      name="LoanTarget" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Cases Data Flow\Cases OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Cases Data Flow\Cases OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Cases Data Flow\Cases OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Cases Data Flow\Cases OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Cases Data Flow.Paths[Derived Column Output]"
+              endId="Package\Cases Data Flow\Cases OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Derived Column Output"
+              startId="Package\Cases Data Flow\Cases Derived Column.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Cases Data Flow.Paths[Flat File Source Output]"
+              endId="Package\Cases Data Flow\Cases Derived Column.Inputs[Derived Column Input]"
+              name="Flat File Source Output"
+              startId="Package\Cases Data Flow\Cases Flat File Source.Outputs[Flat File Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="157,42"
+          Id="Package\Cases Data Flow"
+          TopLeft="117,113" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Cases Data Flow">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="181,42"
+          Id="Package\Cases Data Flow\Cases Flat File Source"
+          TopLeft="147,136" />
+        <NodeLayout
+          Size="184,42"
+          Id="Package\Cases Data Flow\Cases Derived Column"
+          TopLeft="194,278" />
+        <EdgeLayout
+          Id="Package\Cases Data Flow.Paths[Flat File Source Output]"
+          TopLeft="237.5,178">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="48.5,100"
+              Start="0,0"
+              End="48.5,92.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,46" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,46"
+                    Point2="0,50"
+                    Point3="4,50" />
+                  <mssgle:LineSegment
+                    End="44.5,50" />
+                  <mssgle:CubicBezierSegment
+                    Point1="44.5,50"
+                    Point2="48.5,50"
+                    Point3="48.5,54" />
+                  <mssgle:LineSegment
+                    End="48.5,92.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="201,42"
+          Id="Package\Cases Data Flow\Cases OLE DB Destination"
+          TopLeft="143,396" />
+        <EdgeLayout
+          Id="Package\Cases Data Flow.Paths[Derived Column Output]"
+          TopLeft="286,320">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-42.5,76"
+              Start="0,0"
+              End="-42.5,68.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,34" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,34"
+                    Point2="0,38"
+                    Point3="-4,38" />
+                  <mssgle:LineSegment
+                    End="-38.5,38" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-38.5,38"
+                    Point2="-42.5,38"
+                    Point3="-42.5,42" />
+                  <mssgle:LineSegment
+                    End="-42.5,68.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cases Data Flow\Cases OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

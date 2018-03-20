@@ -1,0 +1,6 @@
+C:\Users\STATHIS\Desktop\SkyBridgeProject\SkyBridgeProject\obj\x64\Debug\SkyBridgeProject.csprojResolveAssemblyReference.cache
+C:\Users\STATHIS\Desktop\SkyBridgeProject\SkyBridgeProject\obj\x64\Debug\SkyBridgeProject.Forms.Details.resources
+C:\Users\STATHIS\Desktop\SkyBridgeProject\SkyBridgeProject\obj\x64\Debug\SkyBridgeProject.Intro.resources
+C:\Users\STATHIS\Desktop\SkyBridgeProject\SkyBridgeProject\obj\x64\Debug\SkyBridgeProject.Properties.Resources.resources
+C:\Users\STATHIS\Desktop\SkyBridgeProject\SkyBridgeProject\obj\x64\Debug\SkyBridgeProject.csproj.GenerateResource.cache
+C:\Users\STATHIS\Desktop\SkyBridgeProject\SkyBridgeProject\obj\x64\Debug\SkyBridgeProject.csproj.CoreCompileInputs.cache
